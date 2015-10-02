@@ -1,0 +1,78 @@
+
+* {
+    box-sizing: border-box;
+}
+.container {
+width: 800px;
+    background-color: #000000;
+    color: #EACC32;
+    font-size: 16px;
+    border: 2px solid #FFFFFF;
+    margin: auto;
+    font-family: Helvetica ;
+
+}
+input {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    width: 235px;
+    rotation-point: center;
+    rotation: 45deg;
+}
+
+input[type=radio]{
+    width: 50px;
+}
+select{
+    background-color: #FFFFFF;
+}
+
+#submit{
+    background-color:  #5EB761;
+    color: white;
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#cancel{
+    background-color: #D75552;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.header {
+    background-color:  #DC8622;
+    font-size: 24px;
+    padding: 5px;
+}
+.footer{
+    background-color: #DC8622;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+}
+.form{
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 5px;
+}
+
+label{
+    margin-left: 60px;
+    text-align: right;
+    width: 200px;
+    float: left;
+
+}
+.row{
+    height: 25px;
+    padding-top: 5px;
+    position: relative;
+
+}
+select{
+    margin-left: 20px;
+}

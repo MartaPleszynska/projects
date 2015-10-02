@@ -1,0 +1,28 @@
+.red{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline;
+
+}
+.green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+.blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+body{
+  overflow: auto;
+}

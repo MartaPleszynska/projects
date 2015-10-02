@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formstyles.css" type="text/css" media="screen">
+    <title>HTML Form</title>
+</head>
+<body>
+    <div action="" method="GET">
+        <div class="container">
+
+        <div class="header">
+            Sign Up
+        </div>
+
+        <div class="form">
+
+            <div class="row"><label class="lb" for="firstname">First Name</label><input type="text" placeholder="Enter First Name..." name="firstname" id=firstname"></div>
+            <div class="row"><label for="lastname">Last Name</label><input type="text" placeholder="Enter Last Name..." name="lastname" id="lastname"></div>
+            <div class="row"><label for="screen">Screen Name</label><input type="text" placeholder="Enter Screen Name..."name="screenname" id="screen"></div>
+            <div class="row"><label for="birth">Date of Birth</label>
+                <select name="month">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May" selected>May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <select name="day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5" selected>5</option>
+                </select>
+                <select name="year">
+                    <option value="1983">1983</option>
+                    <option value="1984">1984</option>
+                    <option value="1985" selected>1985</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                </select>
+            </div>
+            <div class="row"><label for="gender">Gender</label><input type="radio" name="Male" value="male">Male<input type="radio" name="Female" value="female">Female</div>
+            <div class="row"><label for="country">Country</label>
+                    <select name="country">
+                        <option value="USA">USA</option>
+                    </select></div>
+            <div class="row"><label for="email">E-mail</label><input type="text" placeholder="Enter Email..."></div>
+            <div class="row"><label for="phone">Phone</label><input type="text" placeholder="Enter Phone..."></div>
+            <div class="row"><label for="pwd">Password</label><input type="password"></div>
+            <div class="row"><label for="conf">Confirm password</label><input type="password"></div>
+            <div class="row"><label for="tick">&nbsp;</label><input type="checkbox" name="checkbox"><span>I agree to the Terms of Use</span></div>
+        </div>
+        <div class="footer">
+            <input id="submit"type="button" value="submit"><input id="cancel" type="button" value="Cancel">
+        </div>
+       </div>
+    </form>
+
+
+
+</body>
+</html>

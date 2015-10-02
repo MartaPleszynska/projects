@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box; /* adds the padding inside the box*/
+}
+div {font-family:Arial Black;}
+
+.text {
+ color:#B1B1B1;
+ position: relative;
+ display: inline-block;
+ font-size: 28px;
+}
+/*
+#B1B1B1 grey
+#95B96A green
+#308FAE skyblue
+#F07332 orange
+#2B5173 navy
+*/
+.orangecircle{
+	width: 50px;
+	height: 50px;
+	background: #F07332;
+	border-radius: 100%;
+    position: absolute;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.grblcircle{
+	width: 60px;
+	height: 90px;
+	border-left: 50px solid #95B96A;
+	border-right: 50px solid #308FAE;
+  border-radius: 100%;
+    position: absolute;
+}
+.colorcircle {
+  width: 50px;
+  height: 50px;
+  border-top: 50px solid transparent;
+  border-right: 50px solid #308FAE;
+  border-left: 50px solid #95B96A;
+  border-bottom: 50px solid #2B5173;
+  border-radius: 100%;
+  position: absolute;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  display: inline-block;
+}
+
+.a{
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+color: #FFFFFF;
+  height: 100px;
+}
+p {
+font-size: 130px;
+display: inline;
+line-height: 100px;
+}
+.test{
+  width: 100px;
+  height: 100px;
+  background-color: #F07332;
+  border-top: 26px solid #FFFFFF;
+  border-right: 25px solid #308FAE;
+  border-left: 25px solid #95B96A;
+  border-bottom: 25px solid #2B5173;
+  border-radius: 100%;
+  position: absolute;
+}
+.logo2{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  display: inline-block;
+
+}
